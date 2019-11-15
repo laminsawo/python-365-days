@@ -1,6 +1,0 @@
-name  = input("What is your name: ")
-age = input("How old are you?: ")
-height = int(input("How tall are you? "))
-print(name)
-print(age)
-print(height)
