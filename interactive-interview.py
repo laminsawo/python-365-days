@@ -27,9 +27,11 @@ print("My name is %s" %name)
 print("I am %d years old" %age)
 print("My address is %s" %address)
 print("I am interested in the %s role you advertised" %role)
-print("I have a %s certification and currently working on my final CCNP exam" %certs)
+print("I have a %s certifications" %certs)
 print(comment)
 print("Bye")
 
 
-
+'''
+This is a comment and this is yet another comment
+'''
