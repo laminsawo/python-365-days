@@ -15,7 +15,7 @@ Others
 # This example if short-hand for x = x+x -
 x = 10
 x += x
-print(x)
+print('x = x + x ', x)
 
 #or
 x = 10
@@ -25,22 +25,26 @@ print(x)
 
 # This example is a short-hand for x = x-x
 x = 10
-x -= x
+y = 5
+x -= y
 print(x)
 
 # This example is a short-hand for x = x*x
 x = 5
-x *= x
+y = 5
+x *= y
 print(x)
 
 # This example is a short-hand for x = x/x
 x = 10
-x /= x
+y = 5
+x /= y
 print(x)
 
 # This example is a short-hand for x = x % x
 x = 20
-x %= x
+y = 4
+x %= y
 print(x)
 
 # This example is a short-hand for x = x // x
