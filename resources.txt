@@ -1,0 +1,6 @@
+Python string methods:
+https://www.programiz.com/python-programming/methods/string
+
+W3Schools Python resources:
+https://www.w3schools.com/python/python_operators.asp
+
