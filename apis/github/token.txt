@@ -1,0 +1,6 @@
+# scopes
+# repo - full  control of private repos
+# write:packages - upload packages to github package registry
+# read:packages - download packages from the github package registry
+
+Personal token= 61ad8e65cfa0e3acd9a67baa8428094eb4af29b3
