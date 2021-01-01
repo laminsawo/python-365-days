@@ -47,4 +47,3 @@ elif rate_us.__contains__("no"):
     print("We'll try make it up to you next time")
 else:
     print("Errrrrrrrrrrrrrrrrr")
-
