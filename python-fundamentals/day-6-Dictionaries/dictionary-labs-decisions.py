@@ -5,16 +5,16 @@ print(dict1['one'])
 print(dict1['two'])
 print(dict1['three'])
 
-#modify a dictionary key value
+# modify a dictionary key value
 dict1['key'] = 22
 print(dict1, '\n')
 
-#add new a dictionary key and a value
+# add new a dictionary key and a value
 dict1['newKey'] = 66
 print(dict1, '\n')
 
 
-#create a new dictionary without assigning asny value
+# create a new dictionary without assigning any value
 dict2 = {}
 dict2['first'] = 1
 dict2['second'] = 2
@@ -28,14 +28,14 @@ dict3 = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'key': 54}
 dict3.clear()
 print(dict3, ' <-- the contents of the list has been  cleared \n')
 
-#print the keys in dictionary
+# print the keys in dictionary
 dict3 = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'key': 54}
 print(dict3.keys(), '\n')
 
 dict3 = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'key': 54}
 print(dict3.items(),'\n')
 
-#look for item with using key 'four', delete and print the rest of the
+# look for item with using key 'four', delete and print the rest of the
 dict3 = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'key': 54}
 dict3.pop('four')
 print(dict3, '\n')
@@ -51,13 +51,13 @@ dict4 = {'one': 1, 'six': 6, 'seven': 7, 'four': 4, 'eight': 8, 'nine': 9}
 dict3.update(dict4)
 print(dict3, '\n')
 
-#remove a dictionary key
+# remove a dictionary key
 del dict2['first']
 print(dict2,'\n')
 
 # delete the entire dictionary
 # printing the dict2 with result in an  error
-#del dict2
+# del dict2
 print(dict2)
 
 dict3 = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'ten': 10}

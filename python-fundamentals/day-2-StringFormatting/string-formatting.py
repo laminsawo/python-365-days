@@ -18,7 +18,7 @@ Examples:
 # cost is in Pound Sterling
 #
 mobile_phone = {'brand': 'iphone', 'colour': 'black', 'weight': 1.7, 'cost': 1200}
-exchange_rate = 1.2  # 1.20 Euro is equal to £1.20 Euro
+exchange_rate = 1.2  # 1 British Pound Sterling is equal £1.20 in Euros
 
 # get the cost of the phone and covert into an integer
 phone_cost = int((mobile_phone['cost']))
@@ -27,7 +27,7 @@ print('Print the cost of the phone \n Cost: £ %.2f' % phone_cost)
 # Task 1 - calculate how much the phone will cost in Euros
 cost_in_euros = phone_cost * exchange_rate
 # print cost of phone in Euros
-print('An £ %.2f phone will cost %.2f in Euros' % (phone_cost, cost_in_euros))
+print('A £ %.2f British Pound Sterling phone will cost %.2f in Euros' % (phone_cost, cost_in_euros))
 
 # Formatting a string - for example, we need to format a users input to a string
 age = input("Please enter your age: ")

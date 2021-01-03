@@ -5,8 +5,7 @@ person = dict(name="sally", age=28, height=185, weight=70, smokes="no", drinks="
 
 # print(person["name"])
 
-
-#  Print each key item and it's value  pair
+#  Print each key item and it's value pair
 for x, y in person.items():
     print(x, ":", y)
 
@@ -17,7 +16,3 @@ for x in car:
     print(car[x])
 
 car = dict(model="Ford", series="Fiesta", year=2018, colour="Blue")
-
-car_type = car[model]
-
-
