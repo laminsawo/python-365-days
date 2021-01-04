@@ -22,3 +22,13 @@ Example: You can specify which Python versions to use
 
 
 **The 'if __name__ == "__main__":'**
+
+Check this for context and usage
+[https://stackoverflow.com/questions/419163/what-does-if-name-main-do][]
+
+Look at this example script for context:
+
+![img.png](img.png)
+
+Script a.py imports script/module b.py
+because a.py is not the 'main', only script execute is 
